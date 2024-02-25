@@ -8,9 +8,10 @@ c1.K = 4;
 
 c1.DisplayCircleInfo(c1);
 Console.WriteLine(c1.GetEquationOfTheCircle(c1.Radio, c1.H, c1.K));
+c1.ShowEquationGral();
 Console.WriteLine(c1.GetEquationOfTheCircle(c1)+"\n");
 
 Circle c2 = new Circle();
 c2.Radio = 8;
 c2.DisplayCircleInfo(c2);
-Console.WriteLine(c2.GetEquationOfTheCircle());
+Console.WriteLine(c2.GetEquationOfTheCircle()+ "\n");

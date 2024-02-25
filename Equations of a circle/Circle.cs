@@ -48,7 +48,7 @@ namespace Equations_of_a_circle
         //Receive-only method
         public void DisplayCircleInfo(Circle c)
         {
-            Console.WriteLine("The equation of the circle with center: (" + c.H + "," + c.K + ")" + " and radio: " + c.Radio + "\nis: ");
+            Console.WriteLine("The equation and area of the circle with center: (" + c.H + "," + c.K + ")" + " and radio: " + c.Radio + "\nis: ");
         }
 
         //Method that only returns
@@ -74,6 +74,11 @@ namespace Equations_of_a_circle
             string signo2 = (E >= 0) ? "+" : "-";
             double F = (Math.Pow(c.h,2))+ (Math.Pow(c.k, 2)-(Math.Pow(c.radio, 2)));
             return "x²+y²" + signo + Math.Abs(D) + "x" + signo2 + Math.Abs(E) + "y+"+F+"=0";
+        }
+
+        public void ShowEquationGral()
+        {
+            Console.WriteLine("And its general equation is:");
         }
 
         ~Circle()
