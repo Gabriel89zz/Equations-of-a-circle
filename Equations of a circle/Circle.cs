@@ -81,6 +81,12 @@ namespace Equations_of_a_circle
             Console.WriteLine("And its general equation is:");
         }
 
+        public static void GoOut()
+        {
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
+
         ~Circle()
         {
              Console.WriteLine("Object is being finalized. Cleaning up resources.");

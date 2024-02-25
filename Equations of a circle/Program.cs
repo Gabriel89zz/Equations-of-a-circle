@@ -15,3 +15,4 @@ Circle c2 = new Circle();
 c2.Radio = 8;
 c2.DisplayCircleInfo(c2);
 Console.WriteLine(c2.GetEquationOfTheCircle()+ "\n");
+Circle.GoOut();
